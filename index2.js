@@ -8,7 +8,7 @@ const ModelClient = require("@azure-rest/ai-inference").default;
 const { AzureKeyCredential } = require("@azure/core-auth");
 app.use(express.static(__dirname));
 app.use(express.json());
-const token ="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";
+const token ="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";
 const endpoint = "https://models.inference.ai.azure.com";
 const modelName = "Meta-Llama-3.1-405B-Instruct";
 // Initialize OpenAI client properly
